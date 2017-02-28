@@ -1,12 +1,37 @@
 <!DOCTYPE html>
 <html>
-<head>
-<style>
-body {
-    background-image: url("space.png");
-    background-repeat: repeat-y;
-    background-repeat: repeat-x;
-}
-</style>
-</head>
+  <head>
+    <script src="volume-meter.js"></script>
+    <script src="main.js"></script>
+    <style>
+      head{
+      }
+      html, body {
+        background-image: url("space.png");
+        background-repeat: repeat;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      img {
+        height: 100%;
+        width: auto;
+      }
+      .center {
+        position: absolute;
+        left: 50%;
+        top:50%;
+        transform: translate(-50%,-50%);
+      }
+      #head {
+      }
+      #mouth {
+      }
+    </style>
+  </head>
+  <body>
+    <div id="head" class = "center"><img src = "oshead.png"></div>
+    <div id="mouth" class = "center"><img src = "osmouth.png"></div>
+  </body>
 </html>
